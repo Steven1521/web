@@ -1,0 +1,55 @@
+#section1 {
+    position: relative;
+    z-index: 1;
+}
+
+#contenedor1 {
+    position: relative;
+    margin-top: 20px;
+}
+
+#img1 {
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    transition: transform 0.3s ease;
+}
+#img1:hover {
+    transform: scale(1.1);
+}
+
+
+#textoSobreImagen1 {
+    position: absolute;
+    top: 30%; 
+    left: 30%; 
+    color: white;
+    font-size: 4vw; 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#textoSobreImagen {
+    position: absolute;
+    top: 50%; 
+    left: 12%; 
+    color: white;
+    font-size: 4vw; 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hide-content {
+    display: none;
+}
+#gale{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#gale2{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}

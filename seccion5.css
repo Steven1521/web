@@ -1,0 +1,75 @@
+#seccion5 {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#superrr{
+    margin-top: 30px;
+    width: 100%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#su1, #su2, #su3, #su4 {
+    width: 15%;
+    height: 150px;
+    position: relative;
+    border-radius: 20px;
+ 
+}
+
+
+
+#su2 {
+
+    margin-left: 3%;
+}
+
+#su3 {
+   
+    margin-left: 3%;
+}
+
+#su4 {
+
+    border-radius: 50%;
+    margin-left: 3%;
+}
+
+.img111 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 100%;
+    border: solid rgb(0, 0, 0) 2px;
+    transition: transform 0.3s ease;
+}
+.img111:hover {
+    transform: scale(1.1);
+}
+
+.overlay-text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+   
+}
+.overlay-text1:hover{
+    
+    color: rgba(0, 0, 0, 0.664);
+
+    
+}

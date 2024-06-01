@@ -1,0 +1,198 @@
+
+footer{
+    background-color: rgba(0, 0, 0, 0.89);
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+#supppp{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+#div1{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 6%;
+
+}
+#imgf{
+    width: 70px;
+    height: 70px;
+    
+}
+#texf{
+    margin-top: 40px;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+#texf:hover{
+    color: blueviolet;
+}
+#texff{
+
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+#div2{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 20%;
+    height: 500px;
+}
+#div4{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10%;
+    height: 500px;
+}
+
+
+#texfff{
+    margin-top: 15px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+}
+#texffff{
+    margin-top: 15px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 800;
+}
+#texffff:hover{
+    color: blueviolet;
+}
+#texfff:hover{
+    color: blueviolet;
+}
+
+#div3{
+
+    width: 260px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 350px;
+
+}
+#logo22{
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+@media screen and (min-width:280px) and (max-width:490px){
+    footer{
+        background-color: rgba(0, 0, 0, 0.89);
+        width: 100%;
+        height: 600px;
+        margin-top: 100px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+    #supppp{
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+    }
+    #div1{
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+        position: relative;
+        margin-top: 30px;
+        margin-left: 6%;
+    
+    }
+    #imgf{
+        width: 70px;
+        height: 70px;
+        
+    }
+    #texf{
+        margin-top: 40px;
+        color: aliceblue;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    #texf:hover{
+        color: blueviolet;
+    }
+    #texff{
+    
+        color: aliceblue;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    #div2{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        position: relative;
+        margin-top: 30px;
+        margin-left: 20%;
+        height: 500px;
+    }
+    #texfff{
+        margin-top: 15px;
+        color: aliceblue;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    #texffff{
+        margin-top: 15px;
+        color: aliceblue;
+        font-size: 8px;
+        font-weight: 800;
+    }
+    #texffff:hover{
+        color: blueviolet;
+    }
+    #texfff:hover{
+        color: blueviolet;
+    }
+    #div3{
+    
+        width: 260px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left:auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        margin-top: 350px;
+    
+    }
+    #logo22{
+        margin-top: 15px;
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
+
+
+}

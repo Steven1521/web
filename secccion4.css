@@ -1,0 +1,42 @@
+.carousel {
+   
+    width: 70vw; 
+    max-width: 100%; 
+    height: 500px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
+.carousel-inner {
+    height: 100%; 
+}
+
+.carousel-item {
+    height: 100%; 
+}
+
+.carousel-item img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+.carousel1 {
+    position: absolute;
+    top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+#gale1{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
